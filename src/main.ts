@@ -1,2 +1,5 @@
-import './components/breakpoint-app';
-import './components/app-button';
+import { createApp } from 'vue'
+import './style.css'
+import App from './App.vue'
+
+createApp(App).mount('#app')
